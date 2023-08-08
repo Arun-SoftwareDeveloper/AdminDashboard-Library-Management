@@ -1,0 +1,75 @@
+.editbooks-container {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.editbooks-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  width: 800px;
+  flex: 1;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(232, 223, 223);
+  border-radius: 10px;
+  position: relative;
+  left: 700px;
+  bottom: 500px;
+}
+
+.label {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0d78ec;
+  transform: scale(1.05);
+}

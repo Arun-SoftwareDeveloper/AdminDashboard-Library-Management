@@ -1,0 +1,113 @@
+.a1 {
+  width: 50%;
+}
+
+.a1[aria-valuenow] {
+  aria-valuenow: 50;
+}
+
+.a1[aria-valuemin] {
+  aria-valuemin: 0;
+}
+
+.a1[aria-valuemax] {
+  aria-valuemax: 100;
+}
+
+.a2 {
+  width: 20%;
+}
+
+.a2[aria-valuenow] {
+  aria-valuenow: 20;
+}
+
+.a2[aria-valuemin] {
+  aria-valuemin: 0;
+}
+
+.a2[aria-valuemax] {
+  aria-valuemax: 100;
+}
+
+.a3 {
+  width: 40%;
+}
+
+.a3[aria-valuenow] {
+  aria-valuenow: 40;
+}
+
+.a3[aria-valuemin] {
+  aria-valuemin: 0;
+}
+
+.a3[aria-valuemax] {
+  aria-valuemax: 100;
+}
+
+.a4 {
+  width: 60%;
+}
+
+.a4[aria-valuenow] {
+  aria-valuenow: 60;
+}
+
+.a4[aria-valuemin] {
+  aria-valuemin: 0;
+}
+
+.a4[aria-valuemax] {
+  aria-valuemax: 100;
+}
+
+.a5 {
+  width: 80%;
+}
+
+.a5[aria-valuenow] {
+  aria-valuenow: 80;
+}
+
+.a5[aria-valuemin] {
+  aria-valuemin: 0;
+}
+
+.a5[aria-valuemax] {
+  aria-valuemax: 100;
+}
+
+.a6 {
+  width: 100%;
+}
+
+.a6[aria-valuenow] {
+  aria-valuenow: 100;
+}
+
+.a6[aria-valuemin] {
+  aria-valuemin: 0;
+}
+
+.a6[aria-valuemax] {
+  aria-valuemax: 100;
+}
+
+.a7 {
+  width: 25rem;
+}
+
+.a7[alt] {
+  alt: "...";
+}
+
+.toogled {
+  overflow: visible;
+  width: 6.5em !important;
+}
+
+.toogled1 {
+  overflow: hidden;
+  width: 0 !important;
+}
